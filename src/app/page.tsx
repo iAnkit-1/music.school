@@ -1,6 +1,7 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import MusicSchoolTestimonials from "@/components/TestimonialCards";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import { h1, main } from "framer-motion/client";
 import Image from "next/image";
@@ -13,6 +14,7 @@ export default function Home() {
       <FeaturedCourses />
       <WhyChooseUs />
       <MusicSchoolTestimonials />
+      <UpcomingWebinars />
 
       </main>
   );
