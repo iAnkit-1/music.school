@@ -1,12 +1,19 @@
+import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import MusicSchoolTestimonials from "@/components/TestimonialCards";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import { h1, main } from "framer-motion/client";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
-      <h1 className="text-center">Chai</h1>
+    
       <HeroSection/>
+      <FeaturedCourses />
+      <WhyChooseUs />
+      <MusicSchoolTestimonials />
+
       </main>
   );
 }
